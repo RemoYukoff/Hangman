@@ -3,6 +3,7 @@ from tkinter import messagebox
 from random import choice,shuffle
 from string import ascii_uppercase
 
+#Funcion para cambiar la imagen de un label
 def changeimage(label,path):
     image=PhotoImage(file=path)
     label.configure(image=image)
